@@ -1,8 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .body{
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Cabin', sans-serif;
     font-family: 'Urbanist', sans-serif;
-    width: 100%;
     margin: 0 auto;
     background-color: black;
 }
@@ -16,25 +21,28 @@ p {
 }
 
 .container{
-    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     padding: 20px 20px;
 }
 
-.wrapper{
-    display: flex;
-    justify-content: space-between;
+.wrapper{  
+    display: flex;  
 }
 
 .main-img {
     border-radius: 0 60px 60px 0;
-    width: auto;
-    height: auto;
+    width: 700px;
+    
 }
 
 .reg-form {
     border-radius: 60px 0  0 60px ;
     background: #FFF;
     padding:45px 16px 150px 54px;
+    width: 700px;
 }
 
 .header {
